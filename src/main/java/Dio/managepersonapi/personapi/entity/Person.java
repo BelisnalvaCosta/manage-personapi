@@ -7,8 +7,11 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
+import javax.persistence.Id;
 import java.time.LocalDate;
 import java.util.List;
+
+import static javax.persistence.CascadeType.REMOVE;
 
 @Entity
 @Data
